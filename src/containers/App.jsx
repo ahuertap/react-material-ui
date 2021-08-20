@@ -1,14 +1,13 @@
 import React from 'react';
 
-import Icons from '../components/Icon';
+import Login from '../components/login/Login';
 
 import '../assets/styles/App.scss';
 
 const App = () => {
   return (
     <div>
-      <h1>Hola desde React</h1>
-      <Icons />
+      <Login />
     </div>
   );
 };
