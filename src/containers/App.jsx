@@ -1,10 +1,15 @@
 import React from 'react';
 
+import Icons from '../components/Icon';
+
 import '../assets/styles/App.scss';
 
 const App = () => {
   return (
-    <h1>Hola desde React</h1>
+    <div>
+      <h1>Hola desde React</h1>
+      <Icons />
+    </div>
   );
 };
 
